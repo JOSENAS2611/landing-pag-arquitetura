@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+}
+
+#cabecalho {
+background-color: black;
+color: #FFF;
+margin-top: 0px;
+padding-bottom: 100px;
+/*border-radius: 20px;*/
+width: auto
+height: 475px;
+}
+
+#texto1 {
+
+margin-left: 5%;
+color: #FFF;
+font-family: Inter;
+font-size: 45px;
+font-style: normal;
+padding-top: 206px;
+padding-right: 200px;
+               
+}
+
+#texto2 {
+
+margin-left: 5%;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight:100px;
+}
+
+#referencia { 
+     margin-left: 0%;
+     background-color:#f9f9f9;
+     padding: 50px;
+     display: grid;
+     grid-auto-flow: column;
+     columns: auto;
+     font-size: 17px;
+     width: auto;
+                                                
+}
+h1 {
+    font-family: inter;
+    margin-left: 200px;
+    font-size: 35px;
+}
+#ref1 {
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 0;
+  margin-top: 0px;
+
+
+
+
+}
+#ref2 {
+
+  font-weight: 200;
+  font-family: Inter;
+  font-size: 20px;
+  margin-left: 0;
+  margin-top: 0px;
+}
+#ref3 {
+  
+  font-weight: 200;
+  font-family: Inter;
+  font-size: 20px;
+  margin-left: 0;
+  margin-top: 0px;
+
+}
+      
+
+#HISTORIA {
+
+    margin-left: 50px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 30px;
+    text-size-adjust: 20px;
+    position: absolute;
+    padding: auto;
+    
+      
+      
+}
+
+h2 {
+
+  margin-left: 40px;
+  padding-top: 206px;
+      
+  
+
+}
+
+p {
+  font-size: 22px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+       
+
+
+img {
+      width: 500px;
+      padding-left: 800px;
+      margin-top: 50px;
+      border-radius: 30px;
+      
+              
+}
+#formulario { 
+
+      background-color: black;
+      color: #FFF;
+      padding-bottom: 100px;
+      margin-top: 50px;
+      text-align: center;
+      
+}
+
+h3 {
+    
+     color: #FFF;
+     font-family: Inter;
+     font-size: 40px;
+     padding-top: 100px;
+              
+  }
+  input{
+     width: 300px;
+     height: 50px;
+     background-color: #EAECE5;
+     margin: 30px;
+     border: 0px;
+     border-radius: 5px;
+     padding-left: 30px;
+     
+  }
+
+  button{
+    /*COR DE FUNDO DO BUTTON*/
+     background-color: #c07212;
+     /*ALTURA DO BUTTON*/
+     height: 50px;
+     /*LARGURA DO BUTTON*/
+     width: 250px;
+     /*COR DA FONTE DO BUTTON*/
+     color: #eaece5;
+     /*GROSSURA DA BORDA DO BUTTON*/
+     border: 5px;
+     /*CURVATURA DAS BORDAS DO BUTTON*/
+     border-radius: 5px;
+     /*COR DA BORDA*/
+     border-color:#FFF;
+     /*COLOCAR BORDA*/
+     font-weight: bolder;
+     /*TIPO DO PONTEIRO DO MOUSE*/
+     cursor: pointer;
+     /*TAMANHO DA FONTE*/
+     font-size: 25px;
+     /* DETERMINA GROSURA DA LETRA = + ou - NEGRITO */
+     font-weight: 10;
+     
+  }
+  button:hover {
+    background-color: #585654;
+    color:#eae7f0;
+    transform: translateY(-10);
+    box-shadow: 5px 5px 10px #eaece5
+  }
+
