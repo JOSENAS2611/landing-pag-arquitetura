@@ -7,9 +7,13 @@ background-color: black;
 color: #FFF;
 margin-top: 0px;
 padding-bottom: 100px;
-/*border-radius: 20px;*/
-width: auto
-height: 475px;
+border-radius: 20px;
+/*AJUSTA ALTURA DA DIV*/
+height: 30vh;
+/*AJUSTA LARGURA DA DIV*/
+width: auto;
+
+   
 }
 
 #texto1 {
@@ -29,7 +33,7 @@ padding-right: 200px;
 margin-left: 5%;
 color: #FFF;
 font-family: Inter;
-font-size: 20px;
+font-size: 25px;
 font-style: normal;
 font-weight:100px;
 }
@@ -79,46 +83,53 @@ h1 {
 }
       
 
-#HISTORIA {
+.HISTORIA {
 
-    margin-left: 50px;
     color: #000;
     font-family: Inter;
-    font-size: 20px;
     font-style: normal;
     font-weight: 300px;
     line-height: 30px;
     text-size-adjust: 20px;
-    position: absolute;
-    padding: auto;
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    margin-top: 50px;
+  
+      
     
-      
-      
+          
 }
 
-h2 {
 
+.hist1 h2 {
+  font-size: 25px;
   margin-left: 40px;
   padding-top: 206px;
+  font-size: 40px;
       
   
 
 }
 
 p {
-  font-size: 22px;
+  text-align: 20px;
+  font-size: 25px;
   margin-left: 40px;
   margin-top: 30px;
+  
 }
 
        
 
 
-img {
-      width: 500px;
-      padding-left: 800px;
-      margin-top: 50px;
+.img {
+      width: auto;
+      margin-top: 35px;
       border-radius: 30px;
+      margin-right: 20px;
+            
+      
       
               
 }
@@ -126,10 +137,10 @@ img {
 
       background-color: black;
       color: #FFF;
-      padding-bottom: 100px;
-      margin-top: 50px;
+      height: 30vw;
+      width: auto;
       text-align: center;
-      
+      border-radius: 20px;
 }
 
 h3 {
@@ -180,6 +191,6 @@ h3 {
     background-color: #585654;
     color:#eae7f0;
     transform: translateY(-10);
-    box-shadow: 5px 5px 10px #eaece5
+    box-shadow: 0px 15px 20px #eaece5
   }
 
