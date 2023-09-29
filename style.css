@@ -1,3 +1,7 @@
+ @media only screen and (max-device-width: 900px){
+    /* .menu { width:100%; } */
+    }
+
 *{
     margin:0px;
 }
@@ -137,11 +141,11 @@ p {
 
       background-color: black;
       color: #FFF;
-      height: 30vw;
+      height:auto;
       width: auto;
       text-align:center;
       border-radius: 0px;
-      
+      padding-block: 5%;
 }
 
 h3 {
@@ -195,6 +199,7 @@ h3 {
       color:#eae7f0;
       transform: translateY(-10);
       box-shadow: 0px 7px 10px #eaece5
+      
   }
 
   
